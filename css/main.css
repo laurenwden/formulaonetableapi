@@ -1,1 +1,50 @@
+body{
+    background-color: rgb(55, 194, 12);
+    padding: 0 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.structure{
+    margin:0 auto;
+    text-align: center;
+    height: 100vh;
+    background-color: rgba(0,0,0,.9);
+    border-radius: 4px;
+}
+
+.headText{
+    
+    margin: 30px 5px;
+    padding-top: 30px;
+    color: white
+
+}
+
+label{
+    color: rgb(85, 248, 36);
+    font-size: 150%;
+    margin-left: 20px;
+}
+
+input{
+    padding: 5px 0;
+}
+
+table{
+    background-color: rgba(183, 201, 166, 0.6);
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+
+.column{
+    padding: 5px 30px;
+    font-style: oblique;
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+input{
+    margin-bottom: 20px;
+}
 
