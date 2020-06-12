@@ -3,39 +3,68 @@
 }
 
 .structure{
-    margin:0 auto;
     text-align: center;
-    height: 100vh;
-    background-color: rgba(0,0,0,.9);
+    border: 1px solid black;
     border-radius: 4px;
+    background-size: cover;
+    background-image: linear-gradient(rgb(1, 92, 92),rgb(55, 221, 77));
+    height: 100vh;
+
 }
 
-.headText{
-    
-    margin: 30px 5px;
+nav{
+    width: 100%;
+    border-bottom: 1px solid silver;
+    border-radius: 2px;
+    height: 30px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+nav li{
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+
+    margin: 0;
+    color: white;
+}
+
+
+h1{
+    margin: 0 auto;
     padding-top: 30px;
     color: white
 
 }
 
 label{
-    color: rgb(85, 248, 36);
+    color: white;
     font-size: 150%;
     margin-left: 20px;
+}
+
+form{
+    margin: 20px 20px;
 }
 
 input{
     padding: 5px 0;
 }
 
-table{
-    background-color: rgba(183, 201, 166, 0.6);
-    margin: 0 auto;
-    margin-top: 50px;
-    border-radius: 6px;
+button{
+    width: 25%;
+    padding: 5px 10px;
+    font-weight: bolder;
+    font-size: 90%;
+    background-color: black;
+    color: white;
+    border: 2px solid silver;
+    border-radius: 2px;
 }
 
-.column{
+
+.columnName{
     padding: 5px 30px;
     font-style: oblique;
     font-size: 120%;
@@ -45,4 +74,25 @@ table{
 input{
     margin-bottom: 20px;
 }
+
+table, th, td {
+    background-color: rgba(183, 201, 166, 0.4);
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+th{
+    height: 50px;
+    background-color: teal;
+    color:white;
+}
+
+tr{
+    height: 30px;
+    padding: 10px;
+}
+
 
