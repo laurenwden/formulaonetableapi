@@ -8,7 +8,7 @@
     border-radius: 4px;
     background-size: cover;
     background-image: linear-gradient(rgb(1, 92, 92),rgb(55, 221, 77));
-    height: 100vh;
+    height: vh;
 
 }
 
@@ -29,6 +29,7 @@ nav li{
     margin: 0;
     color: white;
 }
+
 
 
 h1{
@@ -64,6 +65,7 @@ button{
 }
 
 
+
 .columnName{
     padding: 5px 30px;
     font-style: oblique;
@@ -94,5 +96,3 @@ tr{
     height: 30px;
     padding: 10px;
 }
-
-
