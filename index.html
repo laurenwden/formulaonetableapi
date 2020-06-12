@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="~/favicon.ico">
+    <script src="js/main.js"></script>
+    <title>Formula 1 Racer API</title>
+</head>
+
+<body>
+
+    <div class = "container-fluid" class="header">
+        <div class="structure">
+            <div>
+                <nav>
+                    <ul id="navlist">
+                        <li>Weather</li>
+                        <li>Home</li>
+                        <li>Racer</li>
+                        <li>Sample</li>
+                    </ul>
+                </nav>
+            </div>
+            <h1 class="headText">Formula 1 Racing Standings</h1>
+            <!--Form field for user input -->
+            <div class="form">
+                <form action="" name="inputForm" id="inputForm">
+                    <label form="lap"></label>
+                    <input type="text" name="lap" id="lap" placeholder="Enter Lap">
+                    <label form="year"></label>
+                    <input type="text" name="year" id="year" placeholder="Enter Year (Hint: 2019)">
+                    <br>
+                    <button id="submitButton" onClick="event.preventDefault();getJSON()">Ready...Set...Go!</button>
+                </form>
+            </div>
+
+            <!--Table to display standings-->
+            <div>
+                <table>
+                    <tr>
+                        <th class="columnName">Position</th>
+                        <th class="columnName">Driver Name</th>
+                        <th class="columnName">Nationality</th>
+                        <th class="columnName">Sponsor</th>
+                        <th class="columnName">Points</th>
+                    </tr>
+                    <tr>
+                        <td id="position0"></td>
+                        <td id="first0" id="last0"></td>
+                        <td id="nationality0"></td>
+                        <td id="sponsor0"></td>
+                        <td id="points0"></td>
+                    </tr>
+                    <tr>
+                        <td id="position1"></td>
+                        <td id="first1" id="last1"></td>
+                        <td id="nationality1"></td>
+                        <td id="sponsor1"></td>
+                        <td id="points1"></td>
+                    </tr>
+                    <tr>
+                        <td id="position2"></td>
+                        <td id="first2" id="last2"></td>
+                        <td id="nationality2"></td>
+                        <td id="sponsor2"></td>
+                        <td id="points2"></td>
+                    </tr>
+                    <tr>
+                        <td id="position3"></td>
+                        <td id="first3" id="last3"></td>
+                        <td id="nationality3"></td>
+                        <td id="sponsor3"></td>
+                        <td id="points3"></td>
+                    </tr>
+                    <tr>
+                        <td id="position4"></td>
+                        <td id="first4" id="last4"></td>
+                        <td id="nationality4"></td>
+                        <td id="sponsor4"></td>
+                        <td id="points4"></td>
+                    </tr>
+                    <tr>
+                        <td id="position5"></td>
+                        <td id="first5" id="last5"></td>
+                        <td id="nationality5"></td>
+                        <td id="sponsor5"></td>
+                        <td id="points5"></td>
+                    </tr>
+                    <tr>
+                        <td id="position6"></td>
+                        <td id="first6" id="last6"></td>
+                        <td id="nationality6"></td>
+                        <td id="sponsor6"></td>
+                        <td id="points6"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
